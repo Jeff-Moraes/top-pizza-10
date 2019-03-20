@@ -1,0 +1,388 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: right;
+  margin-bottom: 30px;
+  line-height: 1.25em;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #5C3939;
+  text-align: center;
+  padding: 30px 0;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 0px;
+  margin: 5px auto;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #FAC700;
+}
+
+h3 {
+  font-family: 'Alex Brush', cursive;
+  font-size: 3.5em;
+  color: #5C3939;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 3em;
+  font-weight: bold;
+  color: #FFF;
+  text-align: center;
+  padding-top: 50px;
+}
+
+h5 {
+  color: #5C3939;
+}
+
+.icones {
+  width: 50px;
+  margin: 0 5px -7px 0;
+}
+
+.icones-2 {
+  width: 100px;
+  transition-duration: 0.6s;
+  transform: translate3d(0, 0, 0);
+}
+
+.icones-2:hover {
+  transform: translate3d(0, -5px, 0);
+}
+
+/* menu */
+.header {
+  width: 100%;
+  background: #990F0F;
+  height: 70px;
+  top: 0;
+}
+
+.header-logo img {
+  padding: 10px 15px 0 15px;
+  max-width: 250px;
+  background: #D72519;
+}
+
+.header-menu {
+  padding: 15px 0;
+  text-align: right;
+}
+
+.header-menu ul li {
+  text-align: right;
+  display: inline-block;
+}
+
+.header-menu ul li:first-child::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 20px;
+  background: #FAC700;
+  margin: -5px 5px -5px 7px;
+}
+
+.header-menu ul li:last-child {
+  background: #D72519;
+  padding: 10px 10px;
+  border-radius: 10px;
+  letter-spacing: .1em;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #FFF;
+  transition: all .4s ease;
+}
+
+.header-menu ul li a {
+  color: #FFF;
+  letter-spacing: .1em;
+  font-size: 1em;
+  padding: 10px 5px;
+  transition: all .4s ease;
+}
+
+.header-menu ul li a:hover {
+  color: #FAC700;
+}
+
+/* intro */
+
+.intro {
+  width: 100%;
+  background: url("../img/Mask\ Group\ 2@2x.jpg") no-repeat center;
+  background-size: cover;
+  height: 570px;
+  padding-top: 120px;
+  position: relative;
+  z-index: -1;
+}
+
+.intro-box {
+  max-width: 290px;
+  background: #990F0F;
+  font-size: 1.25em;
+  color: #FFF;
+  padding: 10px;
+  border-radius: 10px;
+  float: right;
+}
+
+.intro-box p {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+.intro-box-1 {
+  width: 140px;
+  background: #D72519;
+  color: #FAC700;
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 260px;
+  right: 150px;
+}
+
+.intro-box-2 {
+  width: 140px;
+  background: #D72519;
+  color: #FAC700;
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 260px;
+  right: 0px;
+}
+
+.intro-box-2 p, .intro-box-1 p {
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+}
+
+.intro-box-2 span, .intro-box-1 span {
+  color: #FFF;
+  font-size: 1.75em;
+  padding-bottom: 15px;
+}
+
+/* pizza menu */
+
+.pizza-menu {
+  width: 100%;
+  background: #E6D5D5;
+  padding: 50px 0;
+  position: relative;
+  z-index: -1;
+}
+
+.pizza-title {
+  text-align: center;
+}
+
+.pizza-sabores ul li {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #5C3939;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.pizza-sabores ul p {
+  font-size: 1em;
+  color: #5C3939;
+  line-height: 1.25em;
+}
+
+.pizza-sabores ul span {
+  font-size: .75em;
+  color: #5C3939;
+}
+
+.pizza-sabores ul p::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #5C3939;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.box-sabores {
+  width: 195px;
+  height: 85px;
+  background: #D72519;
+  position: absolute;
+  padding: 13px;
+  top: 0;
+  right: 15%;
+}
+
+.box-sabores p {
+  color: #FFF;
+  letter-spacing: 0.05em;
+}
+
+.box-sabores span {
+  color: #FAC700;
+  font-size: 2.5em;
+  padding-bottom: 15px;
+}
+
+.veg-icon {
+  width: 15px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/* divisor */
+
+.divisor {
+  width: 100%;
+  background: url("../img/Mask\ Group\ 4@2x.jpg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+  height: 250px;
+}
+
+.divisor p {
+  color: #D72519;
+  font-size: 2.5em;
+  font-weight: bold;
+  letter-spacing: .03em;
+  width: 250px;
+  padding: 10px;
+  background: #FFF;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.contato {
+  width: 100%;
+  height: 550px;
+  background: url("../img/top-pizza-contatox2@2x.jpg") no-repeat center;
+}
+
+.contato p {
+  color: #5C3939;
+  font-size: 1em;
+}
+
+.contato-infos {
+  background: #E6D5D5;
+  margin-top: 170px;
+  padding: 20px;
+}
+
+.contato-infos h5 {
+  font-size: 1.25em;
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
+.contato-infos p {
+  line-height: 1.5em;
+}
+
+.contato-mapa {
+  margin-top: 170px;
+}
+
+/* footer */
+
+.social {
+  text-align: center;
+}
+
+.social img {
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+/* footer */
+
+footer {
+  background: #990F0F;
+  width: 100%;
+  padding: 40px 0;
+  height: 120px;
+}
+
+.footer img {
+  width: 200px;
+  margin-top: -10px;
+  float: none;
+}
+
+.footer p {
+  font-size: 1.25em;
+  text-align: right;
+  display: inline-block;
+  color: #FFF;
+  margin-left: 100px;
+}
+
+h6 {
+  font-family: 'Alex Brush', cursive;
+  font-size: 1.75em;
+  color: #FFF;
+  text-align: right;
+  margin-top: 15px;
+}
+
+.footer span {
+  color: #D72519;
+  font-size: 2em;
+  font-weight: bold;
+  float: right;
+  letter-spacing: .03em;
+  display: inline-block;
+  padding: 10px;
+  background: #FFF;
+  border-radius: 10px;
+  margin-top: -10px;
+}
+
+.copy {
+  background: #D72519;
+  width: 100%;
+  padding: 15px 0;
+  color: #FFF;
+}
+
+/* Scroll Suave */
+.js-scroll {
+  opacity: 0;
+  transition-duration: 0.6s;
+  transform: translate3d(0, -50px, 0);
+}
+
+.js-scroll.ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
